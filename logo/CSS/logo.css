@@ -1,0 +1,65 @@
+@charset "UTF-8";
+/*CSS Document*/
+* {
+    box-sizing: border-box;
+}
+
+html body {
+    background-color: rgba(250,249,246, 1.00);
+    font-family: 'Rufina', serif;
+}
+
+.nav-bar-color {
+    background-color: slateblue;
+}
+
+.nav-link{
+    color: rgba(250,249,246, 1.00) !important;
+}
+
+.nav-highlight, .navbar-brand{
+    color: rgba(250,249,246, 1.00) !important;
+}
+
+.nav-link:hover{
+    color: yellow !important;
+}
+
+code {
+    font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    color: green;
+}
+
+.btn-primary {
+    background-color: slateblue;
+    border: slateblue;
+}
+
+.mt-3 {
+    margin-top: 1rem !important;
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+img {
+    box-sizing: border-box;
+}
+
+.card-img-top.favicon {
+    height: 3rem !important;
+    width: 3rem !important;
+    align-content: center;
+    margin-left: 10rem;
+    margin-top: 10rem;
+
+
+}
+
